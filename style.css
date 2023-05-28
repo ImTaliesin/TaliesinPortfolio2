@@ -25,13 +25,27 @@ body {
   color: white;
 }
 .button{
+  display: flex;
   text-align: left;
-  margin: 0;
-  padding: 0;
-  color: black;
-  font-size: small;
-  text-decoration: none;
+  padding: 10px;
+  background-color: #ff6600;
+  color: #fff;
+  border-radius: 0px;
+  border: 1px solid black;
+  margin: 0px;    
+  flex-basis: content;
+  gap: 5px;
 }
+
+.Button-Wrapper{
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+  gap: 5px;
+  margin: 5px;
+}
+
 .poster {
   width: 50%;
   margin-left: 25%;
